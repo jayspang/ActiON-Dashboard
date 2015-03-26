@@ -20,6 +20,14 @@ $(function() {
 		window.location = $(this).find("a").attr("href");
 	});
 	
+	$(".historyLink").click(function(e) {
+		animateClick($(this));
+		e.stopImmediatePropagation();
+		e.preventDefault();
+		$(".refresh .icon").addClass("fa-spin");
+		window.location = $(this).find("a").attr("href");
+	});	
+	
 	if (readOnlyMode) {return false;}
 	
 	$(".switch, .dimmer, .momentary, .clock, .lock, .link, .themeLight, .camera, .music i, .light, .dimmerLight").click(function() {

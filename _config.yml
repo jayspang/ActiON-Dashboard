@@ -1,0 +1,8 @@
+title: ActiON Dashboard
+description: Your home has a Home Page!™
+google_analytics: UA-60191384-1
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions

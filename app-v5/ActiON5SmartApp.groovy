@@ -23,8 +23,8 @@ definition(
     author: "Alex Malikov",
     description: "SmartTiles Dashboard, a SmartThings web client.",
     category: "SmartThings Labs",
-    iconUrl: "https://jayspanhg.github.io/SmartTiles/prod/icon.png",
-    iconX2Url: "https://jayspanhg.github.io/SmartTiles/prod/icon.png",
+    iconUrl: "https://jayspang.github.io/ActiON-Dashboard/prod/icon.png",
+    iconX2Url: "https://jayspang.github.io/ActiON-Dashboard/prod/icon.png",
     oauth: true)
 
 def appVersion() {"5.3.1"}
@@ -569,14 +569,14 @@ def head() {
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<link rel="icon" sizes="192x192" href="https://jayspanhg.github.io/SmartTiles/prod/icon.png">
-<link rel="apple-touch-icon" href="https://jayspanhg.github.io/SmartTiles/prod/icon.png">
+<link rel="icon" sizes="192x192" href="https://jayspang.github.io/ActiON-Dashboard/prod/icon.png">
+<link rel="apple-touch-icon" href="https://jayspang.github.io/ActiON-Dashboard/prod/icon.png">
 <meta name="mobile-web-app-capable" content="yes">
 <title>${app.label ?: location.name}</title>
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css" />
-<link href="https://jayspanhg.github.io/SmartTiles/prod/style.${appVersion()}.min.css?u=0" rel="stylesheet">
+<link href="https://jayspang.github.io/ActiON-Dashboard/prod/style.${appVersion()}.min.css?u=0" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Mallanna' rel='stylesheet' type='text/css'>
 <script>
 window.location.hash = "";
@@ -591,7 +591,7 @@ var theme = "$theme";
 </script>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js" type="text/javascript"></script>
-<script src="https://jayspanhg.github.io/SmartTiles/prod/script.${appVersion()}.min.js?u=0" type="text/javascript"></script>
+<script src="https://jayspang.github.io/ActiON-Dashboard/prod/script.${appVersion()}.min.js?u=0" type="text/javascript"></script>
 <style>
 .tile {width: ${getTSize()}px; height: ${getTSize()}px;}
 .w2 {width: ${getTSize() * 2}px;}
@@ -641,11 +641,11 @@ def headHistory() {
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css" />
-<link href="https://jayspanhg.github.io/SmartTiles/prod/style.${appVersion()}.min.css?u=0" rel="stylesheet">
+<link href="https://jayspang.github.io/ActiON-Dashboard/prod/style.${appVersion()}.min.css?u=0" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Mallanna' rel='stylesheet' type='text/css'>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js" type="text/javascript"></script>
-<script src="https://jayspanhg.github.io/SmartTiles/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="https://jayspang.github.io/ActiON-Dashboard/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
 <style>
 .batt {background-size: 20px 20px;}
 ${getThemeLightIcon().css}
@@ -661,11 +661,11 @@ def headList() {
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css" />
-<link href="https://jayspanhg.github.io/SmartTiles/prod/style.${appVersion()}.min.css?u=0" rel="stylesheet">
+<link href="https://jayspang.github.io/ActiON-Dashboard/prod/style.${appVersion()}.min.css?u=0" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Mallanna' rel='stylesheet' type='text/css'>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
-<script src="https://jayspanhg.github.io/SmartTiles/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="https://jayspang.github.io/ActiON-Dashboard/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
 <script>
 	\$(function() {
 		\$( ".list" ).sortable({
